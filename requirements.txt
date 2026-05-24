@@ -1,0 +1,20 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# LangChain core
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-groq==0.1.6
+langchain-huggingface==0.0.3
+
+# Document loaders
+pypdf==4.2.0
+docx2txt==0.8
+
+# Embeddings & vector store
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+
+# Misc
+python-dotenv==1.0.1
